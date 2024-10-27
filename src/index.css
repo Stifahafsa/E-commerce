@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.card-img-top {
+  height: 200px; /* Adjust height as necessary */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+.list-group-item {
+  cursor: pointer; /* Change le curseur en main (pointer) */
+}
+
+/* Optionnel: Ajoutez un effet de survol */
+.list-group-item:hover {
+  background-color: #f8f9fa; /* Change la couleur de fond au survol */
+}
